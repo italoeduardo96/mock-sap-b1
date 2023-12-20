@@ -1,0 +1,124 @@
+@font-face {
+	font-family: myFont;
+	src: url(../fonts/4iCs6KVjbNBYlgoKfw72.woff2);
+}
+
+body {
+	font-family: myFont;
+	margin: 0;
+	padding-top: 56px;
+}
+
+.navbar {
+	background-color: #333;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	z-index: 1000;
+}
+
+.navbar-brand img {
+	max-height: 40px;
+	margin-right: 10px;
+	vertical-align: top;
+}
+
+.navbar-text {
+	color: white;
+	font-weight: bold;
+}
+
+.navbar-search {
+	margin-left: auto;
+	position: relative;
+}
+
+.navbar-search input[type="text"] {
+	border-radius: 20px;
+	padding: 8px 30px;
+}
+
+.search-icon {
+	position: absolute;
+	top: 50%;
+	right: 10px;
+	transform: translateY(-50%);
+	color: #333;
+}
+
+.section-1 {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../images/banner-3.jpg');
+	background-size: cover;
+	background-position: bottom;
+	height: 50vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	color: #fff;
+}
+
+.section-1 h2 {
+	text-align: right;
+	margin-top: 100px;
+	font-size: 72px;
+
+}
+
+.section-2 {
+	background-color: #333;
+	height: 15vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	color: #fff;
+}
+
+.section-3 {
+	background-color: #000;
+	color: #fff;
+	padding: 110px 0;
+}
+
+.footer {
+	background-color: #333;
+	color: #fff;
+	text-align: center;
+	padding: 20px 0;
+	position: relative;
+	bottom: 0;
+	width: 100%;
+}
+
+.marketing .col-lg-6 {
+	margin-bottom: 1.5rem;
+	text-align: center;
+}
+
+.img-icon {
+	max-width: 130px;
+	margin: auto;
+	display: block;
+}
+
+.marketing .col-lg-6 p {
+	margin-right: .75rem;
+	margin-left: .75rem;
+}
+
+.marketing .col-lg-6 h2 {
+	color: #fdb721;
+}
+
+.link-unstyled,
+.link-unstyled:link,
+.link-unstyled:hover {
+	color: inherit;
+	text-decoration: inherit;
+}
+
+.title-span{
+	background-color: #0000006e;
+    line-height: 2;
+}
